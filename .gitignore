@@ -1,0 +1,143 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production Build
+/frontend/build
+/frontend/dist
+/backend/dist
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
+.parcel-cache/
+
+# OS Files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env*
+
+# Next.js (if used in future)
+.next/
+out/
+
+# Nuxt.js (if used in future)
+.nuxt/
+dist/
+
+# Gatsby files (if used in future)
+.cache/
+public/
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Webpack
+.webpack/
+
+# React Native
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# Expo
+.expo/
+.expo-shared/
+
+# TypeScript
+*.tsbuildinfo
+
+# Documentation (optional - uncomment if you don't want to track)
+# *.md
+
+# Database files (if using local DB)
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.backup
+
+# MongoDB local data (if running locally)
+data/
+mongo-data/
+
+# Certificate files
+*.pem
+*.crt
+*.key
+
+# Misc
+.todo
+.notes
+scratch/
